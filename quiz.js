@@ -8,7 +8,7 @@ function checkAnswer() {
   
       const feedbackElement = document.getElementById("feedback"); 
   
-      if (userAnswer.toLowerCase() === correctAnswer.toLowerCase()) {
+      if (userAnswer === correctAnswer) {
         feedbackElement.textContent = "Correct! Well done.";
       } else {
         feedbackElement.textContent = "That's incorrect. Try again!";
